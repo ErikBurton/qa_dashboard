@@ -5,3 +5,7 @@
 .navbar-brand {
   color: #F2F2F2;
 }
+
+.progress {
+  height: 23px !important;
+}
