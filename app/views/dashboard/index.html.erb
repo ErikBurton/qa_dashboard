@@ -10,7 +10,7 @@
     </ul> -->
   </div>
 </nav>
-
+<!-- Begin legend -->
 <div class='container'>
   <h1>QA Dashboard</h1>
   <h4>Legend</h4>
@@ -27,49 +27,55 @@
       <strong>UNTESTED</strong>
     </div>
   </div>
+<!-- End legend -->
 
+<!-- Begin PI 3 -->
 <div class="panel panel-primary">
 <h2>18.2.1.28+ (PI 3) Regression testing progress</h2>
-<h4>Updated <span><%= Date.today.month %>-<%= Date.today.day %>-<%= Date.today.year %></span></h4>
+<h4>Updated <span><%= Time.now.asctime %></span></h4>
 <br />
   <div class="progress">
-    <div class="progress-bar" role="progressbar" style="width:32%; background-color: #95d96d !important;"><strong>32%</strong>
+    <div class="progress-bar" role="progressbar" style="width:35%; background-color: #95d96d !important;"><strong>35%</strong>
     </div>
     <div class="progress-bar" role="progressbar" style="width:4%; background-color: #8080ff !important;">
        <strong>4%</strong>
     </div>
-    <div class="progress-bar progress-bar-danger" role="progressbar" style="width:4%; background-color: #f1888f !important;"><strong>4%</strong>
+    <div class="progress-bar progress-bar-danger" role="progressbar" style="width:5%; background-color: #f1888f !important;"><strong>5%</strong>
     </div>
-    <div class="progress-bar" role="progressbar" style="width:60%; background-color: #707070 !important;">
-      <strong>60%</strong>
+    <div class="progress-bar" role="progressbar" style="width:56%; background-color: #707070 !important;">
+      <strong>56%</strong>
     </div>
   </div>
 </div>
+<!-- End PI 3 -->
 
+<!-- Begin Mx#4 Regression -->
 <div class="panel panel-primary">
 <h2>17.1.1.248 (Mx#4) Regression testing progress</h2>
 
-<h4>Updated <span><%= Date.today.month %>-<%= Date.today.day %>-<%= Date.today.year %></span></h4>
+<h4>Updated <span><%= Time.now.asctime %></span></h4>
 <br />
   <div class="progress">
-    <div class="progress-bar" role="progressbar" style="width:35%; background-color: #95d96d !important;">
-        <strong>35%</strong>
+    <div class="progress-bar" role="progressbar" style="width:38%; background-color: #95d96d !important;">
+        <strong>38%</strong>
     </div>
-    <div class="progress-bar" role="progressbar" style="width:1%; background-color: #8080ff !important;">
-        <strong>1%</strong>
+    <div class="progress-bar" role="progressbar" style="width:2%; background-color: #8080ff !important;">
+        <strong>2%</strong>
     </div>
     <div class="progress-bar" role="progressbar" style="width:3%; background-color: #f18884 !important;">
         <strong>3%</strong>
     </div>
-    <div class="progress-bar" role="progressbar" style="width:61%; background-color: #707070 !important;">
-      <strong>61%</strong>
+    <div class="progress-bar" role="progressbar" style="width:57%; background-color: #707070 !important;">
+      <strong>57%</strong>
     </div>
   </div>
 </div>
+<!-- End Mx#4 Regression -->
 
+<!-- Begin Mx#4 Smoke -->
   <div class="panel panel-primary">
   <h2>17.1.1.211+ (Mx#4) Smoke testing progress</h2>
-  <h4>Updated <span><%= Date.today.month %>-<%= Date.today.day %>-<%= Date.today.year %></span></h4>
+  <h4>Updated <span><%= Time.now.asctime %></span></h4>
   <br />
     <div class="progress">
       <div class="progress-bar" role="progressbar" style="width:89%; background-color: #95d96d !important;">
@@ -83,4 +89,5 @@
       </div>
     </div>
   </div>
+<!-- End Mx#4 Smoke -->
 </div>
